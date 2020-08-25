@@ -10,6 +10,13 @@ h3 {
 	font-style: bold;
 	color: #E5C416;
 }
+
+.container-fluid {
+	margin: auto;
+	max-width: 1280px;
+	overflow: hidden;
+}
+
 .list {
   list-style-type: none;
 }
@@ -44,7 +51,11 @@ h3 {
 
 #header {
 	background-color: #f0f0f0;
+	background-image: url("./img/sample1_sized.jpg");
 	margin-bottom: 10px;
+	background-size: cover;
+	height: 400px;
+	color: white;
 }
 
 #headertext {
@@ -58,8 +69,8 @@ h3 {
 }
 
 #menu {
-	text-align: center;
-}
+	text-align: center;}
+
 
 .contact_short {
 	width: 45%;
@@ -67,9 +78,17 @@ h3 {
 
 .blog_card {
 	border: solid;
+	width: 282px;
 }
 
 .highlights {
 	background-color: #010029;
 	color: white;
+	padding-top: 4em;
+	padding-bottom: 4em;
+}
+
+.gallery {
+	padding-top: 4em;
+	padding-bottom: 4em;	
 }
