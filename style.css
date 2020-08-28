@@ -2,17 +2,23 @@
 	font-family: "Titillium Web";
 	src: url("css/fonts/OFL.txt");
 	src:
-	url("css/fonts/TitilliumWeb-ExtraLight.ttf");
+	url("css/fonts/TitilliumWeb-Regular.ttf");
+
+
 }
 
 body {
+	font-family: "Titillium Web";
 	background-color: white;
+	margin: 0;
 }
 
+
+
 h2 {
-	font-family: "Titillium Web";
-	font-weight: normal;
+	font-weight: bold;
 	font-style: normal;
+	font-size: 44;
 }
 
 h3 {
@@ -21,26 +27,96 @@ h3 {
 }
 
 .container-fluid {
-	margin: auto;
 	max-width: 1280px;
 	overflow: hidden;
 }
 
 .list {
-  list-style-type: none;
+	padding: 0px;
+
 }
 
 .list li{
   display:inline;
-  border-top: solid 1px;
-  border-bottom: solid 1px;
 }
 
-#socialicons {
+.menu_list {
+  	border-bottom: 1px solid #ffffff;
+  	border-top: 1px solid #ffffff;
+  	display: inline-block; 	
+}
+
+.menu_list li {
+	font-size: 20;
+	font-weight: bold;
+	padding-right: 20px;
+}
+
+.menu_list li:hover {
+  	border-bottom: 1px solid #ffffff;
+  	border-top: 1px solid #b08d2e;
+  	display: inline-block;
+  	margin-top: -1px;
+  	margin-bottom: -1px;
+}
+
+.socialicons {
+	border: solid 1px green;
+	padding-bottom: 20px;
+}
+
+.searchbar {
+	width: 100%;
+	border: solid 1px green;
+	float: right;
+}
+
+.searchbar input {
+	float: right;
+}
+
+
+.round {
+    width: 100%;
+    border-radius: 15px;
+    border: 1px #000 solid;
+    padding: 5px 5px 5px 25px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 5;
+}
+
+.corner {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    height: 20px;
+    width: 20px;
+    z-index: 10;
+    border-radius: 10px;
+    border: none;
+    background: #000; /* Set the bg image here. with "no-repeat" */
+}
+
+.search {
+    position: relative;
+    width: 230px;
+    height: 50px;
+    float: right;
+    color: black;
+}
+
+
+
+
+
+.top_left {
+	float: left;
 	width: 50%;
 }
 
-#searchbar {
+.top_right {
 	float: right;
 	width: 50%;
 	padding: 1px
@@ -68,7 +144,7 @@ h3 {
 }
 
 #headerlogo {
-	padding-top: 20px;
+	
 }
 
 #headertext {
@@ -77,16 +153,12 @@ h3 {
 	text-align: left;
 	width: 550px;
 	height: 400px;
-	margin-left: 40px;
 	padding: 40px;
-}
-
-#menu {
-	text-align: center;
 }
 
 .top_row {
 	height: 250px;
+	padding-top: 20px;
 }
 
 .contact_short {
