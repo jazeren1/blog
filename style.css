@@ -213,6 +213,7 @@ h3 {
 /* blogs */
 .blogs {
 	background-color: white;
+	background-image: url("./img/blogs.png");
 	color: black;
 	padding-top: 4em;
 	padding-bottom: 4em;	
@@ -226,17 +227,22 @@ h3 {
 /* highlights */
 .highlights {
 	background-color: #010029;
+	background-image: url("./img/highlights.png");
+	background-position: center;
 	color: white;
-	padding-top: 4em;
-	padding-bottom: 4em;
+	height: 500px;
 }
 
 /* testimonials */
 .testimonials {
 	background-color: #1a1a1a;
+	background-image: url("./img/testimonials.png");
+	background-repeat: no-repeat;
+	background-position: center;
 	color: white;
 	padding-top: 4em;
 	padding-bottom: 4em;
+	height: 1000px;
 
 }
 
