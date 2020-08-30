@@ -185,7 +185,11 @@ h3 {
 
 .socialicons {
 	border: solid 1px green;
-	padding-bottom: 20px;
+	padding-bottom: 8px;
+}
+
+.socialicons li {
+	padding-right: 5px;
 }
 /* END Header */
 
