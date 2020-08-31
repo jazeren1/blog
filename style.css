@@ -167,13 +167,35 @@ h3 {
 .searchbar {
 	width: 100%;
 	float: right;
+	padding-bottom: 30px;
 }
 
 .searchbar input {
 	float: right;
 }
 
+.searchbox {
+	background-image: url("./img/searchbar.png");
+	background-color: transparent;
+	background-repeat: no-repeat;
+	color: white;
+	padding-left: 20px;
+	border: none;
+	width:278px;
+	height: 50px
+}
 
+.searchbutton {
+	position: absolute;
+    top: 10px;
+    right: 20px;
+    height: 30px;
+    width: 30px;
+    z-index: 10;
+    background-image: url("./img/searchsymbol.png");
+    background-repeat: no-repeat;
+    background-color: transparent;
+}
 .round {
     width: 100%;
     border-radius: 15px;
@@ -206,7 +228,7 @@ h3 {
 }
 
 .socialicons {
-	padding-bottom: 8px;
+	padding-bottom: 30px;
 }
 
 .socialicons li {
