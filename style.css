@@ -235,7 +235,7 @@ h3 {
 
 .searchbutton {
 	position: absolute;
-    top: 10px;
+    top: 16px;
     right: 20px;
     height: 30px;
     width: 30px;
@@ -243,6 +243,7 @@ h3 {
     background-image: url("./img/searchsymbol.png");
     background-repeat: no-repeat;
     background-color: transparent;
+    border: none;
 }
 .round {
     width: 100%;
