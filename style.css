@@ -25,6 +25,14 @@ h3 {
 	color: #E5C416;
 }
 
+.border1 {
+	border: solid 1px white;
+}
+
+.half { 
+	width: 40%;
+}
+
 .spacer {
 	height: 20px;
 }
@@ -302,8 +310,29 @@ h3 {
 	padding-bottom: 4em;	
 }
 
-.contact_short {
-	width: 45%;
+.contact-input {
+	width: 80%;
+	background-color: #585f66;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	color: #c1c2c2;
+	border-bottom: 1px solid #c1c2c2;
+	margin: 20px 0px 20px 0px;
+}
+
+.contact-info {
+	float: right;
+	width: 80%;
+}
+
+.contact-submit {
+	background-image: url("./img/submit.png");
+	background-color: transparent;
+	background-repeat: none;
+	width: 178px;
+	height: 54px;
+	border: none;
 }
 
 /* blogs */

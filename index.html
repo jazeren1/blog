@@ -194,24 +194,44 @@
 		</div>
 		<div class="container-fluid">
 			<div class="col-sm-4">
-				<ul>
-					<li>Address</li>
-					<li>Phone</li>
-					<li>Email</li>
-				</ul>
+				<div>
+					<img src="./img/address.png"/>
+					<div class="contact-info">
+						<p>Raleigh, North Carolina</p>
+						<p>United States</p>
+					</div>
+				</div>
+				<div class="spacer"></div>
+				<div>
+					<img src="./img/email.png"/>
+					<div class="contact-info">
+						<p>Email:</p>
+						<p>john@johnzeren.com</p>
+					</div>
+				</div>
+				<div class="spacer"></div>
+				<div class="spacer"></div>
+				<div>
+					<img src="./img/socialicons.png"/>
+				</div>
 			</div>
 			<div class="col-sm-8">
 				<form>
-					<label for="first">First Name</label>
-					<input class="contact_short" type="text" name="first"/>
-					<label for="first">Last Name</label>
-					<input class="contact_short" type="text" name="last"/>
-					<label for="first">Phone Number</label>
-					<input class="contact_short" type="text" name="phone"/>
-					<label for="first">Email</label>
-					<input class="contact_short" type="text" name="email"/>
-					<textarea class="contact_long" name="message">Leave us a message</textarea> 
-					<input type="submit" name="submit"/>
+					<div>
+						<label for="first">First Name</label>
+					</div>
+					<input class="contact-input" type="text" name="first"/>
+					<div>
+						<label for="email">Email</label>
+					</div>
+					<input class="contact-input" type="text" name="email"/>
+					<div>
+						<label for="message">Leave Us a Message</label>
+					</div>
+					<textarea class="contact-input" name="message"></textarea> 
+					<div>
+						<input class="contact-submit" type="submit" name="submit"/>
+					</div>
 				</form>
 			</div>
 		</div>
