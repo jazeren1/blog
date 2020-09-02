@@ -1,7 +1,18 @@
 <html>
 	<head>
+		<meta name="viewport" content="initial-scale=1">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
 		<link rel="stylesheet" href="style.css">
+		<script>
+			function myFunction() {
+			  var x = document.getElementById("mobileNav");
+			  if (x.style.display === "block") {
+			    x.style.display = "none";
+			  } else {
+			    x.style.display = "block";
+			  }
+			}
+		</script>
 	</head>
 	<!-- Header Start -->
 	<div id="header-inner-page">
@@ -29,8 +40,19 @@
 					<div id="headerlogo">
 						<img src="./img/logo.png"/>
 					</div>
+					<div id="mobileNav" class="popup">
+						<a class="wide" href="#"><span>Home</span></a>
+						<a class="wide" href="#"><span>About</span></a>
+						<a class="wide" href="#"><span>Resume</span></a>
+						<a class="wide" href="#"><span>Web Work</span></a>
+						<a class="wide" href="#"><span>Background</span></a>
+						<a class="wide" href="#"><span>Blog</span></a>
+						<a class="wide" href="#"><span>Contact</span></a>
+			  		</div>
 					<div id="hamburger">
-						<img src="./img/hamburger-100.png"/>
+						<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+							<img src="./img/hamburger.png"/>
+						</a>
 					</div>
 					<div class="top_right">
 						<div class="searchbar">

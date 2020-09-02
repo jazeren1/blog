@@ -40,11 +40,14 @@
 	#hamburger {
 		visibility: visible !important;
 		text-align: right;
-		width: 100%
+		width: 100%;
+		float: right;
+		position: relative;
+		z-index: 9999999;
 	}
 
-	#header {
-	height: 400px !important;
+	#header, #header-inner-page {
+		height: 300px !important;
 	}
 
 	.about-text {
@@ -70,10 +73,6 @@
 		display: none;
 		visibility: hidden;
 	}
-
-}
-
-
 }
 
 /* Extra Small Devices, Phones */ 
@@ -107,6 +106,43 @@ h3 {
 hr.yellow {
 	border-top: 2px solid #E5C416;
 	width: 60%;
+}
+
+.wide {
+	display: block;
+	width: 100%;
+	text-align: center;
+}
+
+.popup {
+    position: fixed; 
+    left: 50%; top: 0%;
+    opacity:0.9;
+    background: white;     
+    border-radius: 3px;
+    padding: 10px;
+    z-index: 11;
+    margin-left: -50%;
+    width: 100%;
+    height: 100%;
+    padding-top: 60px;
+  }
+
+#mobileNav {
+	display: none;
+  	background-color: #333;
+}
+
+#mobileNav a {
+
+	color: white;
+  	text-decoration: none;
+  	font-size: 40px;
+}
+
+#mobileNav a:hover {
+  background-color: #ddd;
+  color: black;
 }
 
 .border1 {
