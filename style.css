@@ -61,6 +61,12 @@ hr.yellow {
 	display: flex; /* Standard syntax */
 }
 
+.toptransition-inner {
+	margin-top: 51px;
+	background-image: url("./img/toptransition.png");
+	height: 102px;
+}
+
 .toptransition {
 	margin-top: 200px;
 	background-image: url("./img/toptransition.png");
@@ -192,6 +198,15 @@ hr.yellow {
 	margin-bottom: 10px;
 	background-size: cover;
 	height: 1000px;
+	color: white;
+}
+
+#header-inner-page {
+	background-color: #f0f0f0;
+	background-image: url("./img/bloghead.png");
+	margin-bottom: 10px;
+	background-size: cover;
+	height: 400px;
 	color: white;
 }
 
