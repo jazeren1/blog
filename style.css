@@ -56,14 +56,19 @@
 		padding-right: 0% !important;
 	}
 
-	.about {
-
+	.contact-additional {
+		visibility: hidden;
 	}
 
 	.toptransition, .toptransition-inner, .toptransition-blue, 
 	.toptransition-gallery, .toptransition-grey, .bottomtransition,
 	.bottomtransition-inner, .bottomtransition-gallery {
 		display: none;
+	}
+
+	.contact-additional {
+		display: none;
+		visibility: hidden;
 	}
 
 }
@@ -468,6 +473,10 @@ hr.yellow {
 	width: 178px;
 	height: 54px;
 	border: none;
+}
+
+.contact-additional {
+	visibility: visible;
 }
 
 /* blogs */
