@@ -88,8 +88,15 @@ hr.yellow {
 	background-image: url("./img/toptransition-grey.png");
 	height: 102px;
 }
+
 .bottomtransition {
 	margin-top: 40px;
+	background-image: url("./img/bottomtransition.png");
+	height: 100px;
+}
+
+.bottomtransition-inner {
+	margin-top: -60px;
 	background-image: url("./img/bottomtransition.png");
 	height: 100px;
 }
