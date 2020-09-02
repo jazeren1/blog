@@ -73,6 +73,12 @@
 		display: none;
 		visibility: hidden;
 	}
+
+	.column {
+		width: 100% !important;
+		display: block !important;
+		margin-bottom: 20px !important;
+	}
 }
 
 /* Extra Small Devices, Phones */ 
@@ -106,6 +112,22 @@ h3 {
 hr.yellow {
 	border-top: 2px solid #E5C416;
 	width: 60%;
+}
+
+.column {
+	float: left;
+	width: 33%;
+	padding-right: 0 10px;
+}
+
+.row {
+	margin: 0 -5px;
+}
+
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
 }
 
 .wide {
@@ -520,7 +542,6 @@ hr.yellow {
 	background-color: white;
 	background-image: url("./img/blogs.png");
 	color: black;	
-	height: 850px;
 }
 
 .blogs h3 {
@@ -549,7 +570,6 @@ hr.yellow {
 	background-image: url("./img/highlights.png");
 	background-position: center;
 	color: white;
-	height: 608px;
 }
 .blue-col {
 	margin-bottom: 10px;
