@@ -19,6 +19,11 @@
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
+	
+	.hide-in-mobile {
+		display: none;
+	}
+
 	.top_right {
 		display: none;
 	}
@@ -40,13 +45,30 @@
 
 	#header {
 	height: 400px !important;
-}
+	}
+
+	.about-text {
+		border-left: 0px !important;
+	}
+
+	.about-image {
+		text-align: center !important;
+		padding-right: 0% !important;
+	}
+
+	.about {
+
+	}
 
 	.toptransition, .toptransition-inner, .toptransition-blue, 
 	.toptransition-gallery, .toptransition-grey, .bottomtransition,
 	.bottomtransition-inner, .bottomtransition-gallery {
 		display: none;
 	}
+
+}
+
+
 }
 
 /* Extra Small Devices, Phones */ 
