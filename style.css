@@ -577,3 +577,29 @@ img {
 	border: solid 5px #e6c000;
 }
 /* END Section Classes */
+
+/* Page Styles */
+.crumbs {
+	display: inline-block;
+	font-size: larger;
+}
+
+.crumbs p {
+	float: left;
+	padding-right: 5px;
+}
+
+.activepage {
+	font-weight: bold;
+	color: #e6c000;
+}
+
+.clear {
+	clear: both;
+}
+
+/* Dotted red border */
+.blueline {
+  border-top: 3px solid #1c3e52;
+}
+
