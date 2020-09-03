@@ -114,6 +114,11 @@ hr.yellow {
 	width: 60%;
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+}
+
 .column {
 	float: left;
 	width: 33%;
@@ -300,32 +305,15 @@ hr.yellow {
 /* Footer */
 
 #footer {
+	padding-top: 20px;
 	background-image: url("./img/footer.png");
-	text-align: right;	
-	height: 260px;
+	text-align: center;	
 	color: white;
 }
 
-.footer-left {
-	margin-top: 55px;
-	float: left;
-
-}
-
-.footer-right {
-	margin-top: 95px;
-	float: right;
-	width: 70%;
-	line-height: 200%
-}
-
-.footer-right p {
-	font-style: normal;
-	font-size: 18;
-}
-
 .footer_menu_list {
-  	display: inline-block; 	
+  	display: inline-block; 
+  	margin-top: 20px;	
 }
 
 .footer_menu_list li {
