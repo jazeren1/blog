@@ -7,18 +7,8 @@
 
 }
 
-/* Large Devices, Wide Screens */
-@media only screen and (max-width : 1200px) {
-
-}
-
-/* Medium Devices, Desktops */
-@media only screen and (max-width : 992px) {
-
-}
-
-/* Small Devices, Tablets */
-@media only screen and (max-width : 768px) {
+/* Small/Medium Devices, Tablets */
+@media only screen and (max-width : 890px) {
 	
 	.hide-in-mobile {
 		display: none;
@@ -59,10 +49,6 @@
 		padding-right: 0% !important;
 	}
 
-	.contact-additional {
-		visibility: hidden;
-	}
-
 	.toptransition, .toptransition-inner, .toptransition-blue, 
 	.toptransition-gallery, .toptransition-grey, .bottomtransition,
 	.bottomtransition-inner, .bottomtransition-gallery {
@@ -70,8 +56,8 @@
 	}
 
 	.contact-additional {
-		display: none;
-		visibility: hidden;
+		height: 0px;
+		visibility: hidden !important;
 	}
 
 	.column {
@@ -79,16 +65,6 @@
 		display: block !important;
 		margin-bottom: 20px !important;
 	}
-}
-
-/* Extra Small Devices, Phones */ 
-@media only screen and (max-width : 480px) {
-
-}
-
-/* Custom, iPhone Retina */ 
-@media only screen and (max-width : 320px) {
-
 }
 
 /* Global */
@@ -122,6 +98,12 @@ img {
 .column {
 	float: left;
 	width: 33%;
+	padding-right: 0 10px;
+}
+
+.column66 {
+	float: left;
+	width: 66%;
 	padding-right: 0 10px;
 }
 
@@ -372,6 +354,7 @@ img {
 .top_right {
 	float: right;
 	width: 50%;
+	margin-left: -36px
 }
 
 .menu_list {
@@ -497,7 +480,7 @@ img {
 }
 
 .contact-input {
-	width: 80%;
+	width: 100%;
 	background-color: #585f66;
 	border-top: none;
 	border-left: none;
