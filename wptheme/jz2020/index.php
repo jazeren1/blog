@@ -19,7 +19,7 @@ get_header();
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main">
 		<div class="page">
-			<div class="container-fluid">
+			<div class="container-fluid">index.pnp
 			<?php
 			if ( have_posts() ) {
 

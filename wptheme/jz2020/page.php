@@ -12,7 +12,7 @@
 get_header();
 ?>
 <div id="primary" class="content-area">
-	<main id="main" class="site-main">
+	<main id="main" class="site-main">page.php
 <?php if ( !is_front_page() ) { ?>
 	<div class="page">
 		<div class="container-fluid">	
