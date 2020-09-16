@@ -190,7 +190,7 @@ img {
 }
 
 .container-fluid {
-	max-width: 1280px;
+	margin: 0px 100px 0px 100px;
 	overflow: hidden;
 }
 

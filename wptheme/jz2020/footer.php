@@ -71,7 +71,7 @@
 		<div id="footer">
 			<div class="container-fluid">
 				<div>
-					<div><img src="/jz/wp-content/themes/jz2020/img/logo_yellow.png"/></div>
+					<div><a href="<?php echo home_url(); ?>"><img src="/jz/wp-content/themes/jz2020/img/logo_yellow.png"/></a></div>
 					<div>
 						<ul class="list footer_menu_list">
 							<li>Home</li>
@@ -116,9 +116,9 @@
 				</nav><!-- .footer-navigation -->
 			<?php endif; ?>
 	</footer><!-- #colophon -->
-
-</div><!-- #page -->
-
+<!--
+</div><!-- #page 
+-->
 <?php wp_footer(); ?>
 
 </body>

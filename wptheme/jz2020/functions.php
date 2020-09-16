@@ -235,6 +235,10 @@ function twentynineteen_scripts() {
 	}
 }
 add_action( 'wp_enqueue_scripts', 'twentynineteen_scripts' );
+add_action( 'wp_enqueue_scripts', function() {
+        $styles = wp_styles();
+        $styles->add_data( 'twentytwenty-style', 'after', array() );
+    }, 20 );
 
 /**
  * Fix skip link focus in IE11.

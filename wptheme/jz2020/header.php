@@ -7,7 +7,6 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	<link rel="profile" href="https://gmpg.org/xfn/11" />
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-	<link rel="stylesheet" href="style.css">
 	<script>
 		function myFunction() {
 		  var x = document.getElementById("mobileNav");
@@ -19,7 +18,30 @@
 		}
 	</script>
 	<?php wp_head(); ?>
-</head>
+	<!-- Dynamic styles -->
+	<style type="text/css">
+		#header-inner-page {
+			<?php 
+				if (get_the_ID() == "15") {
+			?>
+					background-image: url("/jz/wp-content/themes/jz2020/img/experience.png");
+			<?php 
+				}	
+				if (get_the_ID() == "9") {
+			?>
+				background-image: url("/jz/wp-content/themes/jz2020/img/john_zeren4.png");
+			<?php 
+				}
+				if (get_the_ID() == "11") {
+			?>
+				background-image: url("/jz/wp-content/themes/jz2020/img/webwork_head.png");
+			<?php 
+				}
+			?>
+
+		}
+	</style>
+	</head>
 
 <body <?php body_class(); ?>>
 <?php wp_body_open(); ?>
@@ -32,8 +54,8 @@
 <?php } else { ?>
 	<div id="header-inner-page">
 <?php } ?>	
-	
 		<div class="container-fluid">
+			<?php echo get_the_ID(); ?>
 			<div class="top_row">
 				<div class="flexrow">
 					<div class="top_left">
@@ -55,7 +77,7 @@
 						</div>
 					</div>
 					<div id="headerlogo">
-						<img src="/jz/wp-content/themes/jz2020/img/logo.png"/>
+						<a href="<?php echo home_url(); ?>"><img src="/jz/wp-content/themes/jz2020/img/logo.png"/></a>
 					</div>
 					<div id="mobileNav" class="popup">
 						<a class="wide" href="#"><span>Home</span></a>
@@ -110,6 +132,7 @@
 	</div>
 <!--
 	</div>
--->
+
 
 <div id="content" class="site-content">
+-->

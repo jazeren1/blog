@@ -190,7 +190,7 @@ img {
 }
 
 .container-fluid {
-	max-width: 1280px;
+	margin: 0px 100px 0px 100px;
 	overflow: hidden;
 }
 
@@ -534,7 +534,7 @@ img {
 /* blogs */
 .blogs {
 	background-color: white;
-	background-image: url("./img/blogs.png");
+	background-image: url("/jz/wp-content/themes/jz2020/img/blogs.png");
 	color: black;	
 }
 
