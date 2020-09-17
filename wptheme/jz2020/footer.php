@@ -37,9 +37,15 @@
 				</div>
 				<div class="spacer"></div>
 				<div class="spacer"></div>
-				<div>
-					<img src="/jz/wp-content/themes/jz2020/img/socialicons.png"/>
-				</div>
+<div class="socialicons">
+							<ul class="list">
+								<li><a href="https://www.facebook.com/john.zeren" target="_blank"><img src="/jz/wp-content/themes/jz2020/img/Facebook.png" /></a></li>
+								<li><a href="https://twitter.com/jazeren1" target="_blank"><img src="/jz/wp-content/themes/jz2020/img/Twitter.png"/></a></li>
+								<li><a href="https://plus.google.com/u/0/117145414466979298483/posts" target="_blank"><img src="/jz/wp-content/themes/jz2020/img/Google.png"/></a></li>
+								<li><a href="https://github.com/jazeren1" target="_blank"><img src="/jz/wp-content/themes/jz2020/img/git.png"/></a></li>
+								<li><a href="https://www.linkedin.com/profile/view?id=188612277" target="_blank"><img src="/jz/wp-content/themes/jz2020/img/linkedin.png"/></a></li>
+							</ul>
+						</div>
 			</div>
 			<div class="column66">
 				<form>

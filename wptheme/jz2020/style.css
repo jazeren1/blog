@@ -36,6 +36,10 @@ Tags: one-column, flexible-header, accessibility-ready, custom-colors, custom-me
 		font-size: 16px !important;
 		padding-right: 10px !important;
 	}
+	.contact-additional {
+		height: 0px;
+		visibility: hidden !important;
+	}
 }
 /* Small/Medium Devices, Tablets */
 @media only screen and (max-width : 890px) {
@@ -88,11 +92,6 @@ Tags: one-column, flexible-header, accessibility-ready, custom-colors, custom-me
 	.toptransition-gallery, .toptransition-grey, .bottomtransition,
 	.bottomtransition-inner, .bottomtransition-gallery {
 		display: none;
-	}
-
-	.contact-additional {
-		height: 0px;
-		visibility: hidden !important;
 	}
 
 	.column {
