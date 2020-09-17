@@ -626,3 +626,24 @@ img {
   border-top: 3px solid #1c3e52;
 }
 
+form textarea {
+	width: 100%;
+	border-color: #e3e7ea;
+}
+
+.submit {
+	background-color: #e6c000;
+	border: none;
+	border-radius: 5px;
+	padding: 8px 23px 8px 23px;
+  	color: white; 
+  	font-size: large;
+  	font-weight: 600;
+  	text-transform: uppercase;
+}
+
+.comment {
+	border: solid 1px #e3e7ea;
+	margin-bottom: 20px;
+	box-shadow: 2px 2px #ebebeb;
+}
