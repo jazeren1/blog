@@ -631,6 +631,12 @@ form textarea {
 	border-color: #e3e7ea;
 }
 
+#author, #email, #url {
+	border: solid 1px #e6c000;
+	float: right;
+	width: 50%;
+}
+
 .submit {
 	background-color: #e6c000;
 	border: none;
@@ -640,6 +646,10 @@ form textarea {
   	font-size: large;
   	font-weight: 600;
   	text-transform: uppercase;
+}
+
+.comment-list ol, .comment-list li, .discussion-avatar-list ol, .discussion-avatar-list li {
+	list-style-type: none;
 }
 
 .comment {
