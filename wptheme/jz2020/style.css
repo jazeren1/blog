@@ -31,8 +31,20 @@ Tags: one-column, flexible-header, accessibility-ready, custom-colors, custom-me
 }
 
 /* Small/Medium Devices, Tablets */
+@media only screen and (max-width : 1180px) {
+	.menu_list li {
+		font-size: 16px !important;
+		padding-right: 10px !important;
+	}
+}
+/* Small/Medium Devices, Tablets */
 @media only screen and (max-width : 890px) {
 	
+	.container-fluid {
+		margin: 0px 10px 0px 10px !important;
+		overflow: hidden;
+	}
+
 	.hide-in-mobile {
 		display: none;
 	}
@@ -410,13 +422,13 @@ img {
 }
 
 .searchbox {
-	background-image: url("./img/searchbar.png");
+	background-image: url("./img/searchbar_small.png");
 	background-color: transparent;
 	background-repeat: no-repeat;
 	color: white;
 	padding-left: 20px;
 	border: none;
-	width:278px;
+	width:238px;
 	height: 50px
 }
 
