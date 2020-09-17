@@ -22,21 +22,24 @@
 	<style type="text/css">
 		#header-inner-page {
 			<?php 
-				if (get_the_ID() == "15") {
+				//resume
+				//if (get_the_ID() == "15") {
 			?>
-					background-image: url("/jz/wp-content/themes/jz2020/img/experience.png");
+				/*	background-image: url("/jz/wp-content/themes/jz2020/img/experience.png");*/
 			<?php 
-				}	
-				if (get_the_ID() == "9") {
+				//}	
+				//about
+				//if (get_the_ID() == "9") {
 			?>
-				background-image: url("/jz/wp-content/themes/jz2020/img/john_zeren4.png");
+				/*background-image: url("/jz/wp-content/themes/jz2020/img/john_zeren4.png");*/
 			<?php 
-				}
-				if (get_the_ID() == "11") {
+				//}
+				//webwork
+				//if (get_the_ID() == "11") {
 			?>
-				background-image: url("/jz/wp-content/themes/jz2020/img/webwork_head.png");
+				/*background-image: url("/jz/wp-content/themes/jz2020/img/webwork_head.png");*/
 			<?php 
-				}
+				//}
 			?>
 
 		}
@@ -55,17 +58,17 @@
 	<div id="header-inner-page">
 <?php } ?>	
 		<div class="container-fluid">
-			<?php echo get_the_ID(); ?>
+			<?php //echo get_the_ID(); ?>
 			<div class="top_row">
 				<div class="flexrow">
 					<div class="top_left">
 						<div class="socialicons">
 							<ul class="list">
-								<li><a href="#"><img src="/jz/wp-content/themes/jz2020/img/Facebook.png"/></a></li>
-								<li><a href="#"><img src="/jz/wp-content/themes/jz2020/img/Twitter.png"/></a></li>
-								<li><a href="#"><img src="/jz/wp-content/themes/jz2020/img/Google.png"/></a></li>
-								<li><a href="#"><img src="/jz/wp-content/themes/jz2020/img/git.png"/></a></li>
-								<li><a href="#"><img src="/jz/wp-content/themes/jz2020/img/linkedin.png"/></a></li>
+								<li><a href="https://www.facebook.com/john.zeren" target="_blank"><img src="/jz/wp-content/themes/jz2020/img/Facebook.png" /></a></li>
+								<li><a href="https://twitter.com/jazeren1" target="_blank"><img src="/jz/wp-content/themes/jz2020/img/Twitter.png"/></a></li>
+								<li><a href="https://plus.google.com/u/0/117145414466979298483/posts" target="_blank"><img src="/jz/wp-content/themes/jz2020/img/Google.png"/></a></li>
+								<li><a href="https://github.com/jazeren1" target="_blank"><img src="/jz/wp-content/themes/jz2020/img/git.png"/></a></li>
+								<li><a href="https://www.linkedin.com/profile/view?id=188612277" target="_blank"><img src="/jz/wp-content/themes/jz2020/img/linkedin.png"/></a></li>
 							</ul>
 						</div>
 						<div class="menu_list">
