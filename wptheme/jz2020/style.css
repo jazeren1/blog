@@ -632,8 +632,8 @@ form textarea {
 }
 
 #author, #email, #url {
-	border: solid 1px #e6c000;
-	float: right;
+	border: solid 1px #e3e7ea;
+	float: left;
 	width: 50%;
 }
 
@@ -657,3 +657,20 @@ form textarea {
 	margin-bottom: 20px;
 	box-shadow: 2px 2px #ebebeb;
 }
+
+.screen-reader-text {
+    position: absolute !important;
+    left: -999em;
+}
+
+.comment-form-author label, .comment-form-email label, .comment-form-url label{
+	float: left;
+	width: 70px;
+	clear: both;
+}
+
+.comment-form-cookies-consent, .form-submit{
+	float: left;
+}
+
+
