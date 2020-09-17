@@ -243,7 +243,6 @@ img {
 	height: 102px;
 }
 .toptransition-grey {
-	margin-top: 70px;
 	background-image: url("./img/toptransition-grey.png");
 	height: 102px;
 }
@@ -357,6 +356,7 @@ img {
 #header-inner-page {
 	background-color: #f0f0f0;
 	background-image: url("./img/bloghead.png");
+	background-repeat: repeat-y;
 	margin-bottom: 10px;
 	background-size: cover;
 	height: 400px;
@@ -580,6 +580,13 @@ img {
 .blue-col {
 	margin-bottom: 10px;
 }
+
+.cropped {
+	width: 100%;
+    height: 200px; /* height of container */
+    overflow: hidden;
+}
+
 
 /* testimonials */
 .testimonials {

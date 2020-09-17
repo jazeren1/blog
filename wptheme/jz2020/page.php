@@ -129,49 +129,36 @@ get_header();
 		<div class="container-fluid text-center">
 			<h2>Recent Blogs</h2>
 			<div class="row">
-				<div class="column">
-					<div class="blog_card">
-						<picture>
-							<source srcset="https://via.placeholder.com/381x240/09f/fff.png">
-							<img src="https://via.placeholder.com/381x240/09f/fff.png">
-						</picture>
-						<h3>Mountain Views</h3>
-						<hr class="yellow" />
-						<p>Over 10 years experience. Java, C#, C++ just to name a few, as well as a plethora of web technologies like HTML, CSS, Javascript. Web content management systems include Adobe CQ5 / AEM and Wordpress</p>
-						<div class="spacer"></div>
-						<a class="no-hover no-visited no-focus" href="#"><span class="blue-cta">READ MORE</span></a>
-					</div>
-					
-				</div>
-				<div class="column">
-						<div class="blog_card">
-						<picture>
-							<source srcset="https://via.placeholder.com/381x240/09f/fff.png">
-							<img src="https://via.placeholder.com/381x240/09f/fff.png">
-						</picture>
-						<h3>Mountain Views</h3>
-						<hr class="yellow" />
-						<p>Over 10 years experience. Java, C#, C++ just to name a few, as well as a plethora of web technologies like HTML, CSS, Javascript. Web content management systems include Adobe CQ5 / AEM and Wordpress</p>
-						<div class="spacer"></div>
-						<a class="no-hover no-visited no-focus" href="#"><span class="blue-cta">READ MORE</span></a>
-					</div>
 
-					
-				</div>
-				<div class="column">
-					<div class="blog_card">
-						<picture>
-							<source srcset="https://via.placeholder.com/381x240/09f/fff.png">
-							<img src="https://via.placeholder.com/381x240/09f/fff.png">
-						</picture>
-						<h3>Mountain Views</h3>
-						<hr class="yellow" />
-						<p>Over 10 years experience. Java, C#, C++ just to name a few, as well as a plethora of web technologies like HTML, CSS, Javascript. Web content management systems include Adobe CQ5 / AEM and Wordpress</p>
-						<div class="spacer"></div>
-						<a class="no-hover no-visited no-focus" href="#"><span class="blue-cta">READ MORE</span></a>
-					</div>
-					
-				</div>
+				<?php 
+				   // the query
+				   $the_query = new WP_Query( array(
+				      'posts_per_page' => 3,
+				   )); 
+				?>
+
+				<?php if ( $the_query->have_posts() ) : ?>
+				  <?php while ( $the_query->have_posts() ) : $the_query->the_post(); ?>
+						<div class="column">
+							<div class="blog_card">
+								<div class="cropped">
+									<picture>
+										<source srcset="<?php echo get_the_post_thumbnail_url( null, 'large' ); ?>">
+										<img class="cropped" src="<?php echo get_the_post_thumbnail_url( null, 'large' ); ?>">
+									</picture>
+								</div>
+								<h3><?php the_title(); ?></h3>
+								<hr class="yellow" />
+								<p><?php the_excerpt(); ?></p>
+								<div class="spacer"></div>
+								<a class="no-hover no-visited no-focus" href="#"><span class="blue-cta">READ MORE</span></a>
+							</div>
+						</div>
+				  <?php endwhile; ?>
+				  <?php wp_reset_postdata(); ?>
+				<?php else : ?>
+				  <p><?php __('No Blogs at this time'); ?></p>
+				<?php endif; ?>
 			</div>
 		</div>
 	</div>
