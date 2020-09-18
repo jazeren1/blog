@@ -609,12 +609,13 @@ img {
 }
 
 .gimage {
+	background-color: #e6c000;
 	margin-top: 20px;
 	border: solid 5px #e6c000;
 }
 
 .gimage-alt {
-
+	background-color: #e6c000;
 	border: solid 5px #e6c000;
 }
 /* END Section Classes */
