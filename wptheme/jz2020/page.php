@@ -98,24 +98,24 @@ get_header();
 			<div class="spacer"></div>	
 			<div class="row">
 				<div class="column">
-					<img class="gimage" src="/jz/wp-content/themes/jz2020//img/tempphoto.png"/>
+					<img class="gimage" src="/jz/wp-content/themes/jz2020//img/gallery1.png"/>
 				</div>
 				<div class="column">
-					<img class="gimage-alt" src="/jz/wp-content/themes/jz2020//img/tempphoto.png"/>
+					<img class="gimage-alt" src="/jz/wp-content/themes/jz2020//img/gallery2.png"/>
 				</div>
 				<div class="column">
-					<img class="gimage" src="/jz/wp-content/themes/jz2020//img/tempphoto.png"/>
+					<img class="gimage" src="/jz/wp-content/themes/jz2020//img/gallery3.png"/>
 				</div>
 			</div>
 			<div class="row">
 				<div class="column">
-					<img class="gimage" src="/jz/wp-content/themes/jz2020//img/tempphoto.png"/>
+					<img class="gimage" src="/jz/wp-content/themes/jz2020//img/gallery4.png"/>
 				</div>
 				<div class="column">
-					<img class="gimage-alt" src="/jz/wp-content/themes/jz2020//img/tempphoto.png"/>
+					<img class="gimage-alt" src="/jz/wp-content/themes/jz2020//img/gallery5.png"/>
 				</div>
 				<div class="column">
-					<img class="gimage" src="/jz/wp-content/themes/jz2020//img/tempphoto.png"/>
+					<img class="gimage" src="/jz/wp-content/themes/jz2020//img/gallery6.png"/>
 				</div>
 			</div>
 		</div>
