@@ -5,7 +5,7 @@ get_header();
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main">
 		<div class="page">
-			<div class="container-fluid">single.php	
+			<div class="container-fluid">	
 				<div class="crumbs">
 					<p><a href="<?php echo home_url(); ?>">Home</a>  <b>>></b> </p><p class="activepage"><?php the_title(); ?></p>
 					<hr class="clear blueline"/>
