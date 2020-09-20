@@ -23,17 +23,17 @@
 		#header-inner-page {
 			<?php 
 				//resume
-				//if (get_the_ID() == "15") {
+				if (get_the_ID() == "15") {
 			?>
-				/*	background-image: url("/wp-content/themes/jz2020/img/experience.png");*/
+					background-image: url("/wp-content/themes/jz2020/img/experience.png");
 			<?php 
-				//}	
+				}	
 				//about
-				//if (get_the_ID() == "9") {
+				if (get_the_ID() == "9") {
 			?>
-				/*background-image: url("/wp-content/themes/jz2020/img/john_zeren4.png");*/
+				background-image: url("/wp-content/themes/jz2020/img/me2.png");
 			<?php 
-				//}
+				}
 				//webwork
 				//if (get_the_ID() == "11") {
 			?>
