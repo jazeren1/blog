@@ -21,7 +21,7 @@
 		<div class="container-fluid row">
 			<div class="contact-additional column">
 				<div>
-					<img src="/jz/wp-content/themes/jz2020/img/address.png"/>
+					<img src="/wp-content/themes/jz2020/img/address.png"/>
 					<div class="contact-info">
 						<p>Raleigh, North Carolina</p>
 						<p>United States</p>
@@ -29,7 +29,7 @@
 				</div>
 				<div class="spacer"></div>
 				<div>
-					<img src="/jz/wp-content/themes/jz2020/img/email.png"/>
+					<img src="/wp-content/themes/jz2020/img/email.png"/>
 					<div class="contact-info">
 						<p>Email:</p>
 						<p>john@johnzeren.com</p>
@@ -39,11 +39,11 @@
 				<div class="spacer"></div>
 <div class="socialicons">
 							<ul class="list">
-								<li><a href="https://www.facebook.com/john.zeren" target="_blank"><img src="/jz/wp-content/themes/jz2020/img/Facebook.png" /></a></li>
-								<li><a href="https://twitter.com/jazeren1" target="_blank"><img src="/jz/wp-content/themes/jz2020/img/Twitter.png"/></a></li>
-								<li><a href="https://plus.google.com/u/0/117145414466979298483/posts" target="_blank"><img src="/jz/wp-content/themes/jz2020/img/Google.png"/></a></li>
-								<li><a href="https://github.com/jazeren1" target="_blank"><img src="/jz/wp-content/themes/jz2020/img/git.png"/></a></li>
-								<li><a href="https://www.linkedin.com/profile/view?id=188612277" target="_blank"><img src="/jz/wp-content/themes/jz2020/img/linkedin.png"/></a></li>
+								<li><a href="https://www.facebook.com/john.zeren" target="_blank"><img src="/wp-content/themes/jz2020/img/Facebook.png" /></a></li>
+								<li><a href="https://twitter.com/jazeren1" target="_blank"><img src="/wp-content/themes/jz2020/img/Twitter.png"/></a></li>
+								<li><a href="https://plus.google.com/u/0/117145414466979298483/posts" target="_blank"><img src="/wp-content/themes/jz2020/img/Google.png"/></a></li>
+								<li><a href="https://github.com/jazeren1" target="_blank"><img src="/wp-content/themes/jz2020/img/git.png"/></a></li>
+								<li><a href="https://www.linkedin.com/profile/view?id=188612277" target="_blank"><img src="/wp-content/themes/jz2020/img/linkedin.png"/></a></li>
 							</ul>
 						</div>
 			</div>
@@ -77,16 +77,16 @@
 		<div id="footer">
 			<div class="container-fluid">
 				<div>
-					<div><a href="<?php echo home_url(); ?>"><img src="/jz/wp-content/themes/jz2020/img/logo_yellow.png"/></a></div>
+					<div><a href="<?php echo home_url(); ?>"><img src="/wp-content/themes/jz2020/img/logo_yellow.png"/></a></div>
 					<div>
 						<ul class="list footer_menu_list">
-							<li>Home</li>
-							<li>About</li>
-							<li>Resume</li>
-							<li>Web Work</li>
-							<li>Background</li>
-							<li>Blog</li>
-							<li>Contact Us</li>
+							<li><a href="/">Home</a></li>
+							<li><a href="/about/">About</a></li>
+							<li><a href="/resume/">Resume</a></li>
+							<li><a href="/web-work/">Web Work</a></li>
+							<li><a href="/background/">Background</a></li>
+							<li><a href="/blog/">Blog</a></li>
+							<li><a href="/contact/">Contact Us</a></li>
 						</ul>
 					</div>
 					<div>

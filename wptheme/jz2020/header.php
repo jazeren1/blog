@@ -25,19 +25,19 @@
 				//resume
 				//if (get_the_ID() == "15") {
 			?>
-				/*	background-image: url("/jz/wp-content/themes/jz2020/img/experience.png");*/
+				/*	background-image: url("/wp-content/themes/jz2020/img/experience.png");*/
 			<?php 
 				//}	
 				//about
 				//if (get_the_ID() == "9") {
 			?>
-				/*background-image: url("/jz/wp-content/themes/jz2020/img/john_zeren4.png");*/
+				/*background-image: url("/wp-content/themes/jz2020/img/john_zeren4.png");*/
 			<?php 
 				//}
 				//webwork
 				//if (get_the_ID() == "11") {
 			?>
-				/*background-image: url("/jz/wp-content/themes/jz2020/img/webwork_head.png");*/
+				/*background-image: url("/wp-content/themes/jz2020/img/webwork_head.png");*/
 			<?php 
 				//}
 			?>
@@ -64,36 +64,36 @@
 					<div class="top_left">
 						<div class="socialicons">
 							<ul class="list">
-								<li><a href="https://www.facebook.com/john.zeren" target="_blank"><img src="/jz/wp-content/themes/jz2020/img/Facebook.png" /></a></li>
-								<li><a href="https://twitter.com/jazeren1" target="_blank"><img src="/jz/wp-content/themes/jz2020/img/Twitter.png"/></a></li>
-								<li><a href="https://plus.google.com/u/0/117145414466979298483/posts" target="_blank"><img src="/jz/wp-content/themes/jz2020/img/Google.png"/></a></li>
-								<li><a href="https://github.com/jazeren1" target="_blank"><img src="/jz/wp-content/themes/jz2020/img/git.png"/></a></li>
-								<li><a href="https://www.linkedin.com/profile/view?id=188612277" target="_blank"><img src="/jz/wp-content/themes/jz2020/img/linkedin.png"/></a></li>
+								<li><a href="https://www.facebook.com/john.zeren" target="_blank"><img src="/wp-content/themes/jz2020/img/Facebook.png" /></a></li>
+								<li><a href="https://twitter.com/jazeren1" target="_blank"><img src="/wp-content/themes/jz2020/img/Twitter.png"/></a></li>
+								<li><a href="https://plus.google.com/u/0/117145414466979298483/posts" target="_blank"><img src="/wp-content/themes/jz2020/img/Google.png"/></a></li>
+								<li><a href="https://github.com/jazeren1" target="_blank"><img src="/wp-content/themes/jz2020/img/git.png"/></a></li>
+								<li><a href="https://www.linkedin.com/profile/view?id=188612277" target="_blank"><img src="/wp-content/themes/jz2020/img/linkedin.png"/></a></li>
 							</ul>
 						</div>
 						<div class="menu_list">
 							<ul class="list">
-								<li>ABOUT</li>
-								<li>RESUME</li>
-								<li>WEB WORK</li>
+								<li><a href="/about/">ABOUT</a></li>
+								<li><a href="/resume/">RESUME</a></li>
+								<li><a href="/web-work/">WEB WORK</a></li>
 							</ul>
 						</div>
 					</div>
 					<div id="headerlogo">
-						<a href="<?php echo home_url(); ?>"><img src="/jz/wp-content/themes/jz2020/img/logo.png"/></a>
+						<a href="<?php echo home_url(); ?>"><img src="/wp-content/themes/jz2020/img/logo.png"/></a>
 					</div>
 					<div id="mobileNav" class="popup">
-						<a class="wide" href="#"><span>Home</span></a>
-						<a class="wide" href="#"><span>About</span></a>
-						<a class="wide" href="#"><span>Resume</span></a>
-						<a class="wide" href="#"><span>Web Work</span></a>
-						<a class="wide" href="#"><span>Background</span></a>
-						<a class="wide" href="#"><span>Blog</span></a>
-						<a class="wide" href="#"><span>Contact</span></a>
+						<a class="wide" href="/"><span>Home</span></a>
+						<a class="wide" href="/about/"><span>About</span></a>
+						<a class="wide" href="/resume/"><span>Resume</span></a>
+						<a class="wide" href="/web-work/"><span>Web Work</span></a>
+						<a class="wide" href="/background'"><span>Background</span></a>
+						<a class="wide" href="/blog/"><span>Blog</span></a>
+						<a class="wide" href="/contact/"><span>Contact</span></a>
 			  		</div>
 					<div id="hamburger">
 						<a href="javascript:void(0);" class="icon" onclick="myFunction()">
-							<img src="/jz/wp-content/themes/jz2020/img/hamburger.png"/>
+							<img src="/wp-content/themes/jz2020/img/hamburger.png"/>
 						</a>
 					</div>
 					<div class="top_right">
@@ -107,9 +107,9 @@
 						</div>
 						<div class="menu_list pull-right">
 							<ul class="list">
-								<li>BACKGROUND</li>
-								<li>BLOG</li>
-								<li>CONTACT</li>
+								<li><a href="/background/">BACKGROUND</a></li>
+								<li><a href="/blog/">BLOG</a></li>
+								<li><a href="/contact/">CONTACT</a></li>
 							</ul>
 						</div>
 					</div>

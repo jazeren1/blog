@@ -39,7 +39,7 @@ get_header();
 	<div class="about">
 		<div class="container-fluid">	
 			<div class="col-sm-6 about-image">
-					<img src="/jz/wp-content/themes/jz2020/img/face.png" />
+					<img src="/wp-content/themes/jz2020/img/face.png" />
 			</div>
 			<div class="col-sm-6 about-text">
 				<h2>About Me</h2>
@@ -61,7 +61,7 @@ get_header();
 		<div class="container-fluid text-center">
 			<div class="row">
 				<div class="column blue-col">
-					<img src="/jz/wp-content/themes/jz2020/img/resume.png" />
+					<img src="/wp-content/themes/jz2020/img/resume.png" />
 					<h4>RESUME</h4>
 					<p>Over 10 years experience. Java, C#, C++ just to name a few, as well as a plethora of web technologies like HTML, CSS, Javascript. Web content management systems include Adobe CQ5 / AEM and Wordpress</p>
 					<div class="spacer"></div>
@@ -69,7 +69,7 @@ get_header();
 				</div>
 
 				<div class="column blue-col">
-					<img src="/jz/wp-content/themes/jz2020/img/webwork.png" />
+					<img src="/wp-content/themes/jz2020/img/webwork.png" />
 					<h4>WEBWORK</h4>
 					<p>My web work is a mini-portfoloi of some of the websites I have either designed, coded, or both. This work is outside of my day to day 9 to 5 work and is mostly just for fun...</p>
 					<div class="spacer"></div>
@@ -77,7 +77,7 @@ get_header();
 					
 				</div>
 				<div class="column blue-col">
-					<img src="/jz/wp-content/themes/jz2020/img/blog.png" />
+					<img src="/wp-content/themes/jz2020/img/blog.png" />
 					<h4>BLOG</h4>
 					<p>Read about what makes me tick. Topics range from tech to food to music, entertainment and back. Anything is fair game here. Feel free to comment on the post to keep topics alive</p>
 					<div class="spacer"></div>
@@ -98,24 +98,24 @@ get_header();
 			<div class="spacer"></div>	
 			<div class="row">
 				<div class="column">
-					<img class="gimage" src="/jz/wp-content/themes/jz2020//img/gallery1.png"/>
+					<img class="gimage" src="/wp-content/themes/jz2020//img/gallery1.png"/>
 				</div>
 				<div class="column">
-					<img class="gimage-alt" src="/jz/wp-content/themes/jz2020//img/gallery2.png"/>
+					<img class="gimage-alt" src="/wp-content/themes/jz2020//img/gallery2.png"/>
 				</div>
 				<div class="column">
-					<img class="gimage" src="/jz/wp-content/themes/jz2020//img/gallery3.png"/>
+					<img class="gimage" src="/wp-content/themes/jz2020//img/gallery3.png"/>
 				</div>
 			</div>
 			<div class="row">
 				<div class="column">
-					<img class="gimage" src="/jz/wp-content/themes/jz2020//img/gallery4.png"/>
+					<img class="gimage" src="/wp-content/themes/jz2020//img/gallery4.png"/>
 				</div>
 				<div class="column">
-					<img class="gimage-alt" src="/jz/wp-content/themes/jz2020//img/gallery5.png"/>
+					<img class="gimage-alt" src="/wp-content/themes/jz2020//img/gallery5.png"/>
 				</div>
 				<div class="column">
-					<img class="gimage" src="/jz/wp-content/themes/jz2020//img/gallery6.png"/>
+					<img class="gimage" src="/wp-content/themes/jz2020//img/gallery6.png"/>
 				</div>
 			</div>
 		</div>
