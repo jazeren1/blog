@@ -51,6 +51,8 @@
 <!--
 <div id="page" class="site">
 -->
+
+
 	<!-- Header Start -->
 <?php if ( is_front_page() ) { ?>
 	<div id="header">
@@ -97,10 +99,12 @@
 						</a>
 					</div>
 					<div class="top_right">
+						<?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar("Header") ) : ?>
+						<?php endif;?>
 						<div class="searchbar">
 							<form id="search-form">
-							    <div class="search">
-							      <input type="text" name="search" class="searchbox" value="Search" />
+							    <div class="search-box">
+							      <input type="text" name="s" class="searchbox" value="Search" />
 							      <input type="submit" class="searchbutton" value="" />
 							    </div>
 							</form>

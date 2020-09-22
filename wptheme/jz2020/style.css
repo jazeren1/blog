@@ -478,7 +478,7 @@ img {
     background: #000; /* Set the bg image here. with "no-repeat" */
 }
 
-.search {
+.search-box {
     position: relative;
     width: 230px;
     height: 50px;
@@ -569,6 +569,7 @@ img {
 	border: solid 2px #e2e2e2;
 	background-color: white;
 	height: 500px;
+	margin: 8%;
 }
 
 .blog_card p {

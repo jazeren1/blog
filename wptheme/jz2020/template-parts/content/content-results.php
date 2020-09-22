@@ -1,0 +1,30 @@
+<?php
+/**
+ * Template part for displaying posts
+ *
+ * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
+ *
+ * @package WordPress
+ * @subpackage Twenty_Nineteen
+ * @since Twenty Nineteen 1.0
+ */
+
+?>
+
+
+<div class="column">
+	<div class="blog_card">
+		<div class="cropped">
+			<picture>
+				<source srcset="<?php echo get_the_post_thumbnail_url( null, 'large' ); ?>">
+				<img class="cropped" src="<?php echo get_the_post_thumbnail_url( null, 'large' ); ?>">
+			</picture>
+		</div>
+		<h3><?php the_title(); ?></h3>
+		<hr class="yellow" />
+		<p><?php the_excerpt(); ?></p>
+		<div class="spacer"></div>
+		<a class="no-hover no-visited no-focus" href="#"><span class="blue-cta">READ MORE</span></a>
+	</div>
+</div>
+

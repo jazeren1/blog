@@ -197,8 +197,21 @@ function twentynineteen_widgets_init() {
 		)
 	);
 
+	register_sidebar(
+		array(
+		    'name' => 'Header',
+		    'before_widget' => '<div class = "headerWidgetizedArea">',
+		    'after_widget' => '</div>',
+		    'before_title' => '<h3>',
+		    'after_title' => '</h3>',
+  		)
+  	);
+
 }
 add_action( 'widgets_init', 'twentynineteen_widgets_init' );
+
+
+
 
 /**
  * Set the content width in pixels, based on the theme's design and stylesheet.
@@ -297,6 +310,8 @@ function twentynineteen_colors_css_wrap() {
 	<?php
 }
 add_action( 'wp_head', 'twentynineteen_colors_css_wrap' );
+
+
 
 /**
  * SVG Icons class.
