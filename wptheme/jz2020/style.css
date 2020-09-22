@@ -12,20 +12,21 @@ License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: johnzeren
 Tags: one-column, flexible-header, accessibility-ready, custom-colors, custom-menu, custom-logo, editor-style, featured-images, footer-widgets, rtl-language-support, sticky-post, threaded-comments, translation-ready
+*/
 
 @font-face{
 	font-family: "Titillium Web";
-	src: url("css/fonts/OFL.txt");
+	src: url("./css/fonts/OFL.txt");
 	src:
-	url("css/fonts/TitilliumWeb-Regular.ttf");
+	url("./css/fonts/TitilliumWeb-Regular.ttf");
 
 
 }
 @font-face{
 	font-family: "Titillium Web";
-	src: url("css/fonts/OFL.txt");
+	src: url("./css/fonts/OFL.txt");
 	src:
-	url("css/fonts/TitilliumWeb-Regular.ttf");
+	url("./css/fonts/TitilliumWeb-Regular.ttf");
 
 
 }
