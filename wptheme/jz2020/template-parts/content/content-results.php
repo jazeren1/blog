@@ -11,7 +11,6 @@
 
 ?>
 
-
 <div class="column">
 	<div class="blog_card">
 		<div class="cropped">
@@ -24,7 +23,7 @@
 		<hr class="yellow" />
 		<p><?php the_excerpt(); ?></p>
 		<div class="spacer"></div>
-		<a class="no-hover no-visited no-focus" href="#"><span class="blue-cta">READ MORE</span></a>
+		<a class="no-hover no-visited no-focus" href="<?php echo get_permalink($post->ID)?>"><span class="blue-cta">READ MORE</span></a>
 	</div>
 </div>
 

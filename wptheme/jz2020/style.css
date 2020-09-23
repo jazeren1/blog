@@ -571,6 +571,7 @@ img {
 	background-color: white;
 	height: 500px;
 	margin: 8%;
+	text-align: center;
 }
 
 .blog_card p {
@@ -706,4 +707,12 @@ form textarea {
 	float: left;
 }
 
+/* info around the comments */
+.svg-icon {
+	margin-bottom: -4px;
+}
+
+span.author.vcard, span.posted-on, span.comment-count, span.edit-link {
+	padding: 0px 10px 0px 5px;
+}
 
