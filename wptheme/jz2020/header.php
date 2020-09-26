@@ -16,6 +16,10 @@
 		    x.style.display = "block";
 		  }
 		}
+
+		function clear_form() {
+    		document.getElementById('searchbox').value = "";
+		} 
 	</script>
 	<?php wp_head(); ?>
 	<!-- Dynamic styles -->
@@ -104,7 +108,7 @@
 						<div class="searchbar">
 							<form id="search-form">
 							    <div class="search-box">
-							      <input type="text" name="s" class="searchbox" value="Search" />
+							      <input type="text" name="s" id="searchbox" class="searchbox" onclick="clear_form();" value="Search" />
 							      <input type="submit" class="searchbutton" value="" />
 							    </div>
 							</form>
