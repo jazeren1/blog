@@ -60,28 +60,33 @@ get_header();
 		<div class="spacer"></div>
 		<div class="container-fluid text-center">
 			<div class="row">
-				<div class="column blue-col">
-					<img src="/wp-content/themes/jz2020/img/resume.png" />
-					<h4>RESUME</h4>
-					<p>Over 10 years experience. Java, C#, C++ just to name a few, as well as a plethora of web technologies like HTML, CSS, Javascript. Web content management systems include Adobe CQ5 / AEM and Wordpress</p>
-					<div class="spacer"></div>
-					<a class="no-hover no-visited no-focus" href="#"><span class="orange-border-cta">READ MORE</span></a>
+				<div class="column">
+					<div class="blue-col">
+						<img src="/wp-content/themes/jz2020/img/resume.png" />
+						<h4>RESUME</h4>
+						<p>Over 10 years experience. Java, C#, C++ just to name a few, as well as a plethora of web technologies like HTML, CSS, Javascript. Web content management systems include Adobe CQ5 / AEM and Wordpress</p>
+						<div class="spacer"></div>
+						<a class="no-hover no-visited no-focus" href="#"><span class="orange-border-cta">READ MORE</span></a>
+					</div>
 				</div>
 
-				<div class="column blue-col">
-					<img src="/wp-content/themes/jz2020/img/webwork.png" />
-					<h4>WEBWORK</h4>
-					<p>My web work is a mini-portfoloi of some of the websites I have either designed, coded, or both. This work is outside of my day to day 9 to 5 work and is mostly just for fun...</p>
-					<div class="spacer"></div>
-					<a class="no-hover no-visited no-focus" href="#"><span class="orange-border-cta">READ MORE</span></a>
-					
+				<div class="column">
+					<div class="blue-col">
+						<img src="/wp-content/themes/jz2020/img/webwork.png" />
+						<h4>WEBWORK</h4>
+						<p>My web work is a mini-portfoloi of some of the websites I have either designed, coded, or both. This work is outside of my day to day 9 to 5 work and is mostly just for fun...</p>
+						<div class="spacer"></div>
+						<a class="no-hover no-visited no-focus" href="#"><span class="orange-border-cta">READ MORE</span></a>
+					</div>
 				</div>
-				<div class="column blue-col">
-					<img src="/wp-content/themes/jz2020/img/blog.png" />
-					<h4>BLOG</h4>
-					<p>Read about what makes me tick. Topics range from tech to food to music, entertainment and back. Anything is fair game here. Feel free to comment on the post to keep topics alive</p>
-					<div class="spacer"></div>
-					<a class="no-hover no-visited no-focus" href="#"><span class="orange-border-cta">READ MORE</span></a>
+				<div class="column">
+					<div class="blue-col">
+						<img src="/wp-content/themes/jz2020/img/blog.png" />
+						<h4>BLOG</h4>
+						<p>Read about what makes me tick. Topics range from tech to food to music, entertainment and back. Anything is fair game here. Feel free to comment on the post to keep topics alive</p>
+						<div class="spacer"></div>
+						<a class="no-hover no-visited no-focus" href="#"><span class="orange-border-cta">READ MORE</span></a>
+					</div>
 				</div>
 			</div>
 		</div>
