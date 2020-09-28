@@ -146,17 +146,17 @@ get_header();
 				  <?php while ( $the_query->have_posts() ) : $the_query->the_post(); ?>
 						<div class="column">
 							<div class="blog_card">
-								<div class="cropped">
+								<div class="card-img">
 									<picture>
 										<source srcset="<?php echo get_the_post_thumbnail_url( null, 'large' ); ?>">
-										<img class="cropped" src="<?php echo get_the_post_thumbnail_url( null, 'large' ); ?>">
+										<img class="crop" src="<?php echo get_the_post_thumbnail_url( null, 'large' ); ?>">
 									</picture>
 								</div>
 								<h3><?php the_title(); ?></h3>
 								<hr class="yellow" />
 								<p><?php the_excerpt(); ?></p>
 								<div class="spacer"></div>
-								<a class="no-hover no-visited no-focus" href="#"><span class="blue-cta">READ MORE</span></a>
+								<a class="no-hover no-visited no-focus" href="<?php echo get_permalink($post->ID)?>"><span class="blue-cta">READ MORE</span></a>
 							</div>
 						</div>
 				  <?php endwhile; ?>
