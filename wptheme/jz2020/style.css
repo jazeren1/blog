@@ -248,8 +248,14 @@ img {
 	background-image: url("./img/toptransition.png");
 	height: 102px;
 }
+
 .toptransition-grey {
-	background-image: url("./img/toptransition-grey.png,"), url("/jz/wp-content/themes/jz2020/img/blogs.png");
+	background-image: url("./img/toptransition-grey.png");
+	height: 102px;
+}
+
+.toptransition-grey-home {
+	background-image: url("./img/toptransition-grey.png"), url("/jz/wp-content/themes/jz2020/img/blogs.png");
 	height: 102px;
 }
 

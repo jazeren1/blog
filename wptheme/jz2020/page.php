@@ -194,7 +194,10 @@ get_header();
 </div><!-- #primary -->
 
 <!-- This adds the transition graphic to lead into the contact section -->
-<div class="toptransition-grey">
-</div>
+<?php if ( is_front_page() ) { ?>
+	<div class="toptransition-grey-home"></div>
+<?php } else { ?>
+	<div class="toptransition-grey"></div>
+<?php } ?>	
 <?php
 get_footer();
