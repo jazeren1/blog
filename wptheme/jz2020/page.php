@@ -45,8 +45,10 @@ get_header();
 				<h2>About Me</h2>
 				<h3>JOHN ZEREN</h3>
 				<hr/>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin cursus eu dolor ac tempor. Etiam pharetra mauris vel tristique vehicula. Fusce eleifend odio eget nisi dapibus consectetur. Proin eu convallis nunc, sit amet semper risus. Pellentesque at facilisis purus. Etiam et lorem placerat, consequat ligula in, euismod mauris. Ut in elit eu elit finibus finibus id eget ipsum. Donec a est diam. Fusce facilisis nisi id nunc convallis, sed convallis lorem congue. Nulla facilisi. Vestibulum neque quam, mattis ac ligula vel, consectetur consectetur metus. Morbi aliquam orci sit amet velit suscipit tincidunt. Etiam condimentum efficitur mi, et elementum augue placerat non. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-				<a class="no-hover no-visited no-focus" href="#"><span class="blue-cta">READ MORE</span></a>
+				<p>From signle to family man, from individual contributor to technical people leader, from corporate office to entreprenuer and business man. This website is a conduit of my experiences to the world. I started documented my technical challenges and experiences nearly 15 years ago. From there I expand on hobbies, life events, and cool things I found along the way.</p>  
+
+				<p>My new found focuses are centered around being a people leader and the learnings and experiences that come with it. True work life balance exists when you bring the best of your home to work and the best of your work home with you. We don't have to be defined by our jobs but we should love what we do.</p>
+				<a class="no-hover no-visited no-focus" href="/about/"><span class="blue-cta">READ MORE</span></a>
 				<div class="spacer"></div>
 			</div>
 		</div>

@@ -45,7 +45,6 @@
 			<?php 
 				//}
 			?>
-
 		}
 	</style>
 	</head>
@@ -125,10 +124,10 @@
 			</div>
 			<?php if ( is_front_page() ) { ?>
 			<div id="headertext">
-				<h2>ENGINEER. ENTREPRENEUR.</h2>
-				<p>WOrked across multiple business unites as a software engineer and implimentation consultant. <a href="#">sometext</a></p>
-
-				<a class="no-hover no-visited no-focus" href="#"><span class="orange-cta">READ MORE</span></a>
+				<h2>ENGINEER. ENTREPRENEUR. TECHNOLOGY ENTHUSIAST.</h2>
+				<p>You don't have to pick just one. You can be all three or even more. Learn about my career, what interests me, what I can bring to the table in an organization, and what I like to do for fun.</p>
+				<div class="spacer"></div>
+				<a class="no-hover no-visited no-focus" href="/about/"><span class="orange-cta">READ MORE</span></a>
 			</div>
 			<?php }  ?>
 		</div>
