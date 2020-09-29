@@ -37,7 +37,7 @@
 				</div>
 				<div class="spacer"></div>
 				<div class="spacer"></div>
-<div class="socialicons">
+					<div class="socialicons">
 							<ul class="list">
 								<li><a href="https://www.facebook.com/john.zeren" target="_blank"><img src="/wp-content/themes/jz2020/img/Facebook.png" /></a></li>
 								<li><a href="https://twitter.com/jazeren1" target="_blank"><img src="/wp-content/themes/jz2020/img/Twitter.png"/></a></li>
@@ -46,7 +46,7 @@
 								<li><a href="https://www.linkedin.com/in/john-zeren-7591ba53/" target="_blank"><img src="/wp-content/themes/jz2020/img/linkedin.png"/></a></li>
 							</ul>
 						</div>
-			</div>
+				</div>
 			<div class="column66">
 				<form>
 					<div>

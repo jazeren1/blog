@@ -151,14 +151,22 @@ get_header();
 				?>
 
 				<?php if ( $the_query->have_posts() ) : ?>
-				  <?php while ( $the_query->have_posts() ) : $the_query->the_post(); ?>
+				  <?php while ( $the_query->have_posts() ) : $the_query->the_post(); 
+				  ?>
+
 						<div class="column">
 							<div class="blog_card">
 								<div class="card-img">
-									<picture>
-										<source srcset="<?php echo get_the_post_thumbnail_url( null, 'large' ); ?>">
-										<img class="crop" src="<?php echo get_the_post_thumbnail_url( null, 'large' ); ?>">
-									</picture>
+									<div class="date-circle">
+										<?php convert_the_date(get_the_date('Y'),get_the_date('m'),get_the_date('d'));
+										?>	
+									</div>
+									<a href="<?php echo get_permalink($post->ID)?>">
+										<picture>
+											<source srcset="<?php echo get_the_post_thumbnail_url( null, 'large' ); ?>">
+											<img class="crop" src="<?php echo get_the_post_thumbnail_url( null, 'large' ); ?>">
+										</picture>
+									</a>
 								</div>
 								<h3><?php the_title(); ?></h3>
 								<hr class="yellow" />

@@ -312,7 +312,43 @@ function twentynineteen_colors_css_wrap() {
 }
 add_action( 'wp_head', 'twentynineteen_colors_css_wrap' );
 
+function translate_month($month) {
+	switch ($month) {
+		case "01":
+			return "Jan";
+		case "02":
+			return "Feb";
+		case "03":
+	    	return "Mar";
+	  	case "04":
+	    	return "Apr";
+		case "05":
+			return "May";
+		case "06":
+			return "June";
+		case "07":
+	    	return "July";
+	  	case "08":
+	    	return "Aug";
+		case "09":
+			return "Sept";
+		case "10":
+			return "Oct";
+		case "11":
+	    	return "Nov";
+	  	case "12":
+	    	return "Dec";
+	  	default:
+	    	return "Jan"; //if we hit this then just say its Jan
+	}
+}
 
+function convert_the_date($year, $month, $day) {
+	$month = translate_month($month);
+	echo "<p>$day</p>";
+	echo "<p>$month</p>";
+	echo "<p>$year</p>";
+}
 
 /**
  * SVG Icons class.

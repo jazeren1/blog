@@ -14,6 +14,10 @@
 <div class="column">
 	<div class="blog_card">
 		<div class="card-img">
+			<div class="date-circle">
+				<?php convert_the_date(get_the_date('Y'),get_the_date('m'),get_the_date('d'));
+				?>	
+			</div>
 			<a href="<?php echo get_permalink($post->ID)?>">
 				<picture>
 					<source srcset="<?php echo get_the_post_thumbnail_url( null, 'large' ); ?>">
