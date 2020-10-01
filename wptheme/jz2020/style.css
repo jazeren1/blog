@@ -41,6 +41,11 @@ Tags: one-column, flexible-header, accessibility-ready, custom-colors, custom-me
 		height: 0px;
 		visibility: hidden !important;
 	}
+
+	.nav-links {
+		margin-top: -20px;
+	}
+
 }
 /* Small/Medium Devices, Tablets */
 @media only screen and (max-width : 890px) {
@@ -596,6 +601,23 @@ img {
 	font-weight: bold;
 }
 
+.date-circle {
+	position: absolute;
+	background: #181717;
+	border-radius: 50%;
+	height: 65px;
+	width: 65px;
+	margin: 10px 0px 0px 10px;
+
+}
+
+.date-circle p {
+	color: white;
+	line-height: .4;
+	margin-top: 10px;
+
+}
+
 /* highlights */
 .highlights {
 	background-color: #010029;
@@ -747,4 +769,25 @@ span.author.vcard, span.posted-on, span.comment-count, span.edit-link {
 .sd-social-icon {
 	background-color: blue;
 	color: white;
+}
+
+.page-numbers {
+	display: inline-block;
+	padding: 8px 10px;
+	margin: 0 2px 0 0;
+	border: 2px solid #e2e2e2;
+	border-radius: 2px;
+	font-weight: 600;
+}
+.page-numbers.current, a.page-numbers:hover {
+	background: #f9f9f9;
+}
+
+a.next.page-numbers {
+	margin-top: 5px;
+	padding-top: 5px;
+}
+
+.nav-links {
+	margin-left: 15px;
 }
