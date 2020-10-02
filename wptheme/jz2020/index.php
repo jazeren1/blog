@@ -20,6 +20,13 @@ get_header();
 		<main id="main" class="site-main">
 		<div class="page">
 			<div class="container-fluid">
+				<?php if ( is_home() && !$_GET["s"]) {
+					echo "<h1>Recent Posts</h1>";
+				}
+				else if ($_GET["s"]){
+					echo "<h1>Search Results</h1>";
+				}
+			?>
 			<?php
 			if ( have_posts() ) {
 
