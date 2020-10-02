@@ -21,15 +21,15 @@ get_header();
 		<div class="page">
 			<div class="container-fluid">
 				<?php if ( is_home() && !$_GET["s"]) {
-					echo "<h1>Recent Posts</h1>";
-				}
-				else if ($_GET["s"]){
-					echo "<h1>Search Results</h1>";
+					echo "<h1>Recent Posts</h1><hr/>";
 				}
 			?>
 			<?php
 			if ( have_posts() ) {
-
+				if ($_GET["s"]){
+					echo "<h1>Search Results</h1><hr/>";
+					echo "<p>Search results found for: <b>" . $_GET["s"] . "</b></p>";
+				}
 				// Load posts loop.
 				while ( have_posts() ) {
 					the_post();
