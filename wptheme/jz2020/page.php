@@ -107,7 +107,7 @@ get_header();
 
 	<div class="gallery">
 		<div class="container-fluid text-center">
-			<h2>Our Gallery</h2>
+			<h2>Image Gallery</h2>
 			<div class="spacer"></div>	
 			<div class="row">
 				<div class="column">
@@ -211,9 +211,9 @@ get_header();
 
 <!-- This adds the transition graphic to lead into the contact section -->
 <?php if ( is_front_page() ) { ?>
-	<div class="toptransition-grey-home"></div>
+	<!--<div class="toptransition-grey-home"></div>-->
 <?php } else { ?>
-	<div class="toptransition-grey"></div>
+	<!--<div class="toptransition-grey"></div>-->
 <?php } ?>	
 <?php
 get_footer();

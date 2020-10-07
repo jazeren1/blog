@@ -39,7 +39,7 @@ get_header();
 		</main><!-- #main -->
 	</div><!-- #primary -->
 <!-- This adds the transition graphic to lead into the contact section -->
-<div class="toptransition-grey">
-</div>
+<!--<div class="toptransition-grey">
+</div>-->
 <?php
 get_footer();

@@ -16,17 +16,17 @@ Tags: one-column, flexible-header, accessibility-ready, custom-colors, custom-me
 
 @font-face{
 	font-family: "Titillium Web";
-	src: url("./css/fonts/OFL.txt");
+	src: url("./fonts/OFL.txt");
 	src:
-	url("./css/fonts/TitilliumWeb-Regular.ttf");
+	url("./fonts/TitilliumWeb-Regular.ttf");
 
 
 }
 @font-face{
 	font-family: "Titillium Web";
-	src: url("./css/fonts/OFL.txt");
+	src: url("./fonts/OFL.txt");
 	src:
-	url("./css/fonts/TitilliumWeb-Regular.ttf");
+	url("./fonts/TitilliumWeb-Regular.ttf");
 
 
 }
@@ -260,7 +260,7 @@ img {
 }
 
 .toptransition-grey-home {
-	background-image: url("./img/toptransition-grey.png"), url("/jz/wp-content/themes/jz2020/img/blogs.png");
+	background-image: url("./img/toptransition-grey.png"), url("/wp-content/themes/jz2020/img/blogs.png");
 	height: 102px;
 }
 
@@ -575,7 +575,7 @@ img {
 /* blogs */
 .blogs {
 	background-color: white;
-	background-image: url("/jz/wp-content/themes/jz2020/img/blogs.png");
+	background-image: url("/wp-content/themes/jz2020/img/blogs.png");
 	color: black;	
 }
 
@@ -682,6 +682,10 @@ img {
 .gimage-alt {
 	background-color: #e6c000;
 	border: solid 5px #e6c000;
+}
+
+img.gimage, img.gimage-alt {
+	max-width: 96%;
 }
 /* END Section Classes */
 
