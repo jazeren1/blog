@@ -795,3 +795,15 @@ a.next.page-numbers {
 .nav-links {
 	margin-left: 15px;
 }
+
+.form-submit {
+	clear: both;
+}
+
+#subscribe-label {
+	display: none;
+}
+
+#subscribe-blog-label {
+	display: none;
+}
