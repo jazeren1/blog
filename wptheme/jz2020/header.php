@@ -31,6 +31,18 @@
 			?>
 					background-image: url("/wp-content/themes/jz2020/img/experience.png");
 			<?php 
+				}
+				//background
+				if (get_the_ID() == "5") {
+			?>
+				background-image: url("/wp-content/themes/jz2020/img/background_head.jpg");
+			<?php 
+				}
+				//contact
+				if (get_the_ID() == "7") {
+			?>
+				background-image: url("/wp-content/themes/jz2020/img/contact_head.jpg");
+			<?php 
 				}	
 				//about
 				if (get_the_ID() == "9") {
@@ -39,11 +51,11 @@
 			<?php 
 				}
 				//webwork
-				//if (get_the_ID() == "11") {
+				if (get_the_ID() == "11") {
 			?>
-				/*background-image: url("/wp-content/themes/jz2020/img/webwork_head.png");*/
+				background-image: url("/wp-content/themes/jz2020/img/webwork.jpg");
 			<?php 
-				//}
+				}
 			?>
 		}
 	</style>

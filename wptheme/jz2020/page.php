@@ -45,9 +45,9 @@ get_header();
 				<h2>About Me</h2>
 				<h3>JOHN ZEREN</h3>
 				<hr/>
-				<p>From signle to family man, from individual contributor to technical people leader, from corporate office to entreprenuer and business man. This website is a conduit of my experiences to the world. I started documented my technical challenges and experiences nearly 15 years ago. From there I expand on hobbies, life events, and cool things I found along the way.</p>  
+				<p>From single to family man, from individual contributor to technical people leader, from corporate office to entrepreneur and business man. This website is a conduit of my personal and professional experiences. I started documented my technical challenges and experiences as a developer starting his career. From there I expand on hobbies, life events, and cool things I found along the way.</p>  
 
-				<p>My new found focuses are centered around being a people leader and the learnings and experiences that come with it. True work life balance exists when you bring the best of your home to work and the best of your work home with you. We don't have to be defined by our jobs but we should love what we do.</p>
+				<p>My current focuses are centered around being a people leader and the learnings and experiences that come with it. True work life balance exists when you bring the best of your home to work and the best of your work home with you. We don't have to be defined by our jobs, but we should love what we do.</p>
 				<a class="no-hover no-visited no-focus" href="/about/"><span class="blue-cta">READ MORE</span></a>
 				<div class="spacer"></div>
 			</div>
@@ -68,7 +68,7 @@ get_header();
 							<img src="/wp-content/themes/jz2020/img/resume.png" />
 						</a>
 						<h4>RESUME</h4>
-						<p>Over 15 years experience in the web applications development space. My career spans hands on technical delivery to people management and leadership.</p>
+						<p>Over 16 years experience in the web applications development space. My career spans hands on technical delivery to people management and leadership.</p>
 						<div class="spacer"></div>
 						<a class="no-hover no-visited no-focus" href="/resume/"><span class="orange-border-cta">READ MORE</span></a>
 					</div>
@@ -91,7 +91,7 @@ get_header();
 							<img src="/wp-content/themes/jz2020/img/blog.png" />
 						</a>
 						<h4>BLOG</h4>
-						<p>Read about what makes me tick. Topics range from tech to food to music, entertainment, to my experiences in leadership. Anything is fair game here. Feel free to explore my brain.</p>
+						<p>Read about what makes me tick. Topics range from tech to food to music, entertainment, to my experiences in leadership. Feel free to explore my brain.</p>
 						<div class="spacer"></div>
 						<a class="no-hover no-visited no-focus" href="/blog/"><span class="orange-border-cta">READ MORE</span></a>
 					</div>

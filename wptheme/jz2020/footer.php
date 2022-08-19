@@ -14,6 +14,7 @@
 ?>
 
 	<!-- Contact me -->
+	<!--
 	<div class="contact">
 		<div class="container-fluid text-center">
 			<h2>Contact Me</h2>
@@ -67,6 +68,7 @@
 			</div>
 		</div>
 	</div>
+-->
 	<!-- End Contact -->
 
 	</div><!-- #content -->
