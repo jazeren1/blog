@@ -105,6 +105,10 @@ Tags: one-column, flexible-header, accessibility-ready, custom-colors, custom-me
 		display: block !important;
 		margin-bottom: 20px !important;
 	}
+
+	.about-image {
+		display: none;
+	}
 }
 
 /* Global */
